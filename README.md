@@ -1,5 +1,3 @@
-Remove UTM - Chrome Extension
-
-Pack with npm crx
-
-* crx pack -o remove-utm.crx
+Remove UTM
+======
+- Chrome Extension to remove UTM parameters from URL.
