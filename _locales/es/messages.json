@@ -1,0 +1,8 @@
+{
+    "application_title": {
+        "message": "Quitar UTM"
+    },
+    "application_description": {
+        "message": "Esta extensión quita los parametros UTM del URL"
+    }
+}
