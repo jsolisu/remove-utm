@@ -1,0 +1,8 @@
+{
+    "application_title": {
+        "message": "Remove UTM"
+    },
+    "application_description": {
+        "message": "Extension is removing UTM parameters from URL"
+    }
+}

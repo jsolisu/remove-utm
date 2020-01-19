@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_application_title__",
+    "description": "__MSG_application_description__",
+    "version": "1.0.0",
+    "default_locale": "en",
+    "author": "Jean Solís",
+    "homepage_url": "https://github.com/jsolisu/remove-utm",
+    "icons": {
+        "16": "utm_16.png",
+        "48": "utm_48.png",
+        "128": "utm_128.png"
+    },
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": [
+            "utm.js"
+        ],
+        "run_at": "document_idle"
+    }]
+}
