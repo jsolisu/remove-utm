@@ -9,6 +9,7 @@ module.exports = {
     mode: 'none', // "production" | "development" | "none"
     entry: './utm.js',
     output: {
+        filename: 'utm.js',
         path: path.join(rootPath, 'dist')
     },
     plugins: [
