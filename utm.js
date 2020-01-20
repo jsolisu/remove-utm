@@ -1,4 +1,4 @@
-const params = ['fbclid', 'utm_source', 'utm_medium', 'utm_campaign'];
+const params = ['fbclid', 'utm_campaign', 'utm_content', 'utm_medium', 'utm_source'];
 
 const url = new URL(location.href);
 params.forEach((param) => {
